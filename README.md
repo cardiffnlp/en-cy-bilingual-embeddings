@@ -138,7 +138,7 @@ Sources:
 
 Here we make available the embeddings produced in the project. All embeddings are trained using two algorithms: `word2vec` (CBOW variant) and `fasttext`, and for each, we release a range of models for various vector sizes, and minimum frequency and context window values. Unless otherwise specified, we apply the supervised variant of `VecMap` for the bilingual mappings. We also provide all the required files to perform Welsh sentiment analysis:
 
-- [Cross-lingual English-Welsh embeddings] (https://drive.google.com/drive/folders/1VIhVP61KZdYc2ucUJtszVOXgfr5z5CcQ?usp=sharing)
+- [Cross-lingual English-Welsh embeddings] (https://drive.google.com/drive/folders/1iGqzFlZifSeHzPhnz3qM68a37Ul7S7Xq?usp=sharing)
 - [Cross-lingual English-Welsh sentiment analysis files] (https://drive.google.com/drive/folders/1VArQ4_bTzz8IJj8h7o969UrI12l1Cl9z?usp=sharing) - See below for customization and training details.
 _____________________
 
