@@ -1,0 +1,214 @@
+bear,Animal
+bull,Animal
+camel,Animal
+cat,Animal
+cow,Animal
+deer,Animal
+dog,Animal
+elephant,Animal
+horse,Animal
+kitten,Animal
+lion,Animal
+monkey,Animal
+mouse,Animal
+oyster,Animal
+puppy,Animal
+rat,Animal
+sheep,Animal
+tiger,Animal
+turtle,Animal
+zebra,Animal
+abattoir,Building
+center,Building
+clubhouse,Building
+dormitory,Building
+greenhouse,Building
+hall,Building
+hospital,Building
+hotel,Building
+house,Building
+inn,Building
+library,Building
+nursery,Building
+restaurant,Building
+school,Building
+skyscraper,Building
+tavern,Building
+theater,Building
+villa,Building
+whorehouse,Building
+pants,Cloth
+blouse,Cloth
+coat,Cloth
+costume,Cloth
+gloves,Cloth
+hat,Cloth
+jacket,Cloth
+jeans,Cloth
+neckpiece,Cloth
+pajamas,Cloth
+robe,Cloth
+scarf,Cloth
+shirt,Cloth
+suit,Cloth
+trousers,Cloth
+uniform,Cloth
+architect,Creator
+artist,Creator
+builder,Creator
+constructor,Creator
+craftsman,Creator
+designer,Creator
+developer,Creator
+farmer,Creator
+inventor,Creator
+maker,Creator
+manufacture,Creator
+musician,Creator
+originator,Creator
+painter,Creator
+photographer,Creator
+producer,Creator
+tailor,Creator
+acne,Disease
+anthrax,Disease
+arthritis,Disease
+asthma,Disease
+cancer,Disease
+cholera,Disease
+cirrhosis,Disease
+diabetes,Disease
+eczema,Disease
+flu,Disease
+glaucoma,Disease
+hepatitis,Disease
+leukemia,Disease
+malnutrition,Disease
+meningitis,Disease
+plague,Disease
+rheumatism,Disease
+smallpox,Disease
+anger,Feeling
+desire,Feeling
+fear,Feeling
+happiness,Feeling
+joy,Feeling
+love,Feeling
+pain,Feeling
+passion,Feeling
+pleasure,Feeling
+sadness,Feeling
+sensitivity,Feeling
+shame,Feeling
+wonder,Feeling
+apple,Fruit
+banana,Fruit
+berry,Fruit
+cherry,Fruit
+grape,Fruit
+kiwi,Fruit
+lemon,Fruit
+mango,Fruit
+melon,Fruit
+olive,Fruit
+orange,Fruit
+peach,Fruit
+pear,Fruit
+pineapple,Fruit
+strawberry,Fruit
+watermelon,Fruit
+bed,Furniture
+bookcase,Furniture
+cabinet,Furniture
+chair,Furniture
+couch,Furniture
+cradle,Furniture
+desk,Furniture
+dresser,Furniture
+lamp,Furniture
+lounge,Furniture
+seat,Furniture
+sofa,Furniture
+table,Furniture
+wardrobe,Furniture
+ankle,Body Part
+arm,Body Part
+ear,Body Part
+eye,Body Part
+face,Body Part
+finger,Body Part
+foot,Body Part
+hand,Body Part
+head,Body Part
+leg,Body Part
+nose,Body Part
+shoulder,Body Part
+toe,Body Part
+tongue,Body Part
+tooth,Body Part
+wrist,Body Part
+atlas,Publication
+book,Publication
+booklet,Publication
+brochure,Publication
+catalog,Publication
+cookbook,Publication
+dictionary,Publication
+encyclopedia,Publication
+handbook,Publication
+journal,Publication
+magazine,Publication
+manual,Publication
+phonebook,Publication
+reference,Publication
+textbook,Publication
+workbook,Publication
+boy,Family Relation
+child,Family Relation
+cousin,Family Relation
+daughter,Family Relation
+father,Family Relation
+girl,Family Relation
+grandchild,Family Relation
+grandfather,Family Relation
+grandmother,Family Relation
+husband,Family Relation
+kid,Family Relation
+mother,Family Relation
+offspring,Family Relation
+sibling,Family Relation
+son,Family Relation
+wife,Family Relation
+century,Time
+decade,Time
+era,Time
+evening,Time
+fall,Time
+hour,Time
+month,Time
+morning,Time
+night,Time
+overtime,Time
+quarter,Time
+season,Time
+semester,Time
+spring,Time
+summer,Time
+week,Time
+weekend,Time
+winter,Time
+year,Time
+aircraft,Vehicle
+airplane,Vehicle
+automobile,Vehicle
+bicycle,Vehicle
+boat,Vehicle
+car,Vehicle
+cruiser,Vehicle
+helicopter,Vehicle
+motorcycle,Vehicle
+pickup,Vehicle
+rocket,Vehicle
+ship,Vehicle
+truck,Vehicle
+van,Vehicle
