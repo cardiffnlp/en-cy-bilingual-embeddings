@@ -255,7 +255,7 @@ In this section we explain the steps to be taken for training and evaluating a W
 
 ## Classifier training
 
-This script produces three files: a classifier, a tokenizer and a file with a id-to-label mapping (e.g., 1=positive and 0=negative). 
+This script produces three files: a classifier, a tokenizer and a file with a id-to-label mapping (e.g., 1=positive and 0=negative). You can skip this step and download the required files from [here](https://drive.google.com/drive/folders/1Jkn5qat5obAcLhQaLlb_XtAJy1Jzuuv1?usp=sharing).
 
 ```bash
 python3 src/train_crosslingual_classifier.py --en-word-vectors ENGLISH-MAPPED-VECTORS --wel-word-vectors WELSH-MAPPED-VECTORS --dataset data/corpora/english/imdb/train/ --output-model PATH-TO-CLASSIFIER --output-tokenizer PATH-TO-TOKENIZER --output-labelmap PATH-TO-LABEL-MAP
