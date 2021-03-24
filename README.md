@@ -18,14 +18,14 @@ Sources:
 
 + wiki_cy.tx
   + SOURCE: https://cy.wikipedia.org/wiki/Hafan
-  + DESCRIPTION: All Welsh language wikipedia pages.
+  + DESCRIPTION: All Welsh language Wikipedia pages.
   + EXTRACTION: Scraped using `urllib` and `beautifulsoup` in Python, obtaining all text within a `<p>` tag. Citations and mathematics removed.
   + NUMBER OF WORDS: 21,233,177
 
 + uagtpnaw_cy.txt
   + SOURCE: http://xixona.dlsi.ua.es/corpora/UAGT-PNAW/
   + CITE: Jones, D. and Eisele, A., 2006. Phrase-based statistical machine translation between English and Welsh. In Proceedings of the 5th SALTMIL Workshop on Minority Languages at the 5th International Conference on Language Resources and Evaluation (pp. 75-77).
-  + DESCRIPTION: Proceeedings of the Welsh Assembly 1999-2006
+  + DESCRIPTION: Proceedings of the Welsh Assembly 1999-2006
   + EXTRACTION: Available as plain text file.
   + NUMBER OF WORDS: 11,527,963
 
@@ -44,7 +44,7 @@ Sources:
 
 + cOrPUS_cy.txt
   + SOURCE: http://opus.nlpl.eu/
-  + DESCRIPTION: OPUS is a collection of translated texts on the web. For en-cy we have the folling corpera: Tatoeba v20190709, GNOME v1, JW300 v1, KDE4 v2, QED v2.0, Ubuntu v14.10, EUbookshop v2.
+  + DESCRIPTION: OPUS is a collection of translated texts on the web. For en-cy we have the following corpora: Tatoeba v20190709, GNOME v1, JW300 v1, KDE4 v2, QED v2.0, Ubuntu v14.10, EUbookshop v2.
   + EXTRACTION: Available as plain text files.
   + NUMBER OF WORDS: 1,224,956
 
@@ -56,7 +56,7 @@ Sources:
 
 + proceedings_cy.txt
   + SOURCE: https://record.senedd.wales/XMLExport
-  + DESCRIPTION: Record of proceedsings of the Welsh Assembly. Plenary information from the start of the Fifth Assembly (May 2016) and Committee information from November 2017 onwards.
+  + DESCRIPTION: Record of proceedings of the Welsh Assembly. Plenary information from the start of the Fifth Assembly (May 2016) and Committee information from November 2017 onwards.
   + EXTRACTION: Download .xml files, extract text with `beautifulsoup` in Python.
   + NUMBER OF WORDS: 17,177,715
 
@@ -71,13 +71,13 @@ Sources:
   + SOURCE: http://crubadan.org/ (Emailed Kevin Scannell for original data)
   + CITE: Scannell, K.P., 2007, September. The Crúbadán Project: Corpus building for under-resourced languages. In Building and Exploring Web Corpora: Proceedings of the 3rd Web as Corpus Workshop (Vol. 4, pp. 5-15).
   + DESCRIPTION: Crawl of many websites, blog posts and twitter from the An Crúbadán project.
-  + EXTRACTION: Plain text files provided for each source. Html table provided including meta-data all data sources. Removed all wikipedia data (as we have more up to date data in another data set).
+  + EXTRACTION: Plain text files provided for each source. Html table provided including meta-data all data sources. Removed all Wikipedia data (as we have more up to date data in another data set).
   + NUMBER OF WORDS: 22,572,066
 
 + deche.txt
   + SOURCE: https://llyfrgell.porth.ac.uk/Default.aspx?search=deche&page=1&fp=0
   + CITE: Prys, D., Jones, D. and Roberts, M., 2014, August. DECHE and the Welsh National Corpus Portal. In Proceedings of the First Celtic Language Technology Workshop (pp. 71-75).
-  + DESCRIPTION: The Digitization, E-publishing and Electronic Corpus DEChE. Digitised textbooks publically available.
+  + DESCRIPTION: The Digitization, E-publishing and Electronic Corpus DEChE. Digitised textbooks publicly available.
   + EXTRACTION: Manually downloaded all books in .epub format. Converted to plain text using `epub_conversion.utils` and `beautifulsoup` in Python.
   + NUMBER OF WORDS: 2,126,153
 
@@ -90,7 +90,7 @@ Sources:
 + gwerddon.txt
   + SOURCE: http://www.gwerddon.cymru/cy/hafan/
   + DESCRIPTION: All (29) editions of the Welsh language academic journal Gwerddon.
-  + EXTRACTION: Downloaded and extracted using R and the `pdftools` package. Some manual post-formitting done to correct for footnotes and so on.
+  + EXTRACTION: Downloaded and extracted using R and the `pdftools` package. Some manual post-formatting carried out to correct for footnotes and so on.
   + NUMBER OF WORDS: 767,677
 
 + wefannau.txt
@@ -100,15 +100,15 @@ Sources:
   + NUMBER OF WORDS: 7,388,917
 
 + corcencc_full.txt
-  + SOURCE: http://www.corcencc.org/ (Recieved original data privately - using an early version of the corpus) Full copy of CorCenCC v1.0 is available from: https://research.cardiff.ac.uk/converis/portal/detail/Dataset/119878310?auxfun=&lang=en_GB
-  + DESCRIPTION: The full CorCenCC in preprocessed form.
-  + CITE: Knight, D., Morris, S., Fitzpatrick, T., Rayson, P., Spasić, I., Thomas, E-M., Lovell, A., Morris, J., Evas, J., Stonelake, M., Arman, L., Davies, J., Ezeani, I., Neale, S., Needs, J., Piao, S., Rees, M., Watkins, G., Williams, L., Muralidaran, V., Tovey-Walsh, B., Anthony, L., Cobb, T., Deuchar, M., Donnelly, K., McCarthy, M. and Scannell, K. (2020). CorCenCC: Corpws Cenedlaethol Cymraeg Cyfoes – the National Corpus of Contemporary Welsh.Cardiff University. http://doi.org/10.17035/d.2020.0119878310
-  + EXTRACTION: Identified html and extracted all text in `<p>` tags using `beatifulsoup` in Python. All non html files left as is.
+  + SOURCE: http://www.corcencc.org/ (Received original data privately - using an early version of the corpus) Full copy of CorCenCC v1.0 is available from: https://research.cardiff.ac.uk/converis/portal/detail/Dataset/119878310?auxfun=&lang=en_GB
+  + DESCRIPTION: The full CorCenCC in pre-processed form.
+  + CITE: Knight, D., Morris, S., Fitzpatrick, T., Rayson, P., Spasić, I., Thomas, E-M., Lovell, A., Morris, J., Evas, J., Stonelake, M., Arman, L., Davies, J., Ezeani, I., Neale, S., Needs, J., Piao, S., Rees, M., Watkins, G., Williams, L., Muralidaran, V., Tovey-Walsh, B., Anthony, L., Cobb, T., Deuchar, M., Donnelly, K., McCarthy, M. and Scannell, K. (2020). CorCenCC: Corpws Cenedlaethol Cymraeg Cyfoes – the National Corpus of Contemporary Welsh. Cardiff University. http://doi.org/10.17035/d.2020.0119878310
+  + EXTRACTION: Identified html and extracted all text in `<p>` tags using `beautifulsoup` in Python. All non html files left as is.
   + NUMBER OF WORDS: 10,630,657
 
 + s4c.txt
   + SOURCE: Received original data privately (i.e. not publicly available) 
-  + DESCRIPTION: Video Text Track (.vtt) files of recent bilingual subtitles of S4C progammes.
+  + DESCRIPTION: Video Text Track (.vtt) files of recent bilingual subtitles of S4C programmes.
   + EXTRACTION: Text manipulation to strip away formatting.
   + NUMBER OF WORDS: 26,931,013
 
@@ -116,14 +116,14 @@ Sources:
 
 + UMBC
   + SOURCE: http://ebiquity.umbc.edu/blogger/2013/05/01/umbc-webbase-corpus-of-3b-english-words
-  + DESCRIPTION: Data from the web, which includes blog posts, news stories, wikipedia, etc.
-  + EXTRACTION: Cleand, tokenized and pre-processed.
+  + DESCRIPTION: Data from the web, which includes blog posts, news stories, Wikipedia, etc.
+  + EXTRACTION: Cleaned, tokenized and pre-processed.
   + VERSIONS: [Only tokenized](https://drive.google.com/file/d/1NIx5lbqg1_PYb53XLkCrnh_4hXQyr9bN/view?usp=sharing); [only tokenized and chunked (no POS tags)](https://drive.google.com/file/d/191S3GjlkNsLge3aPQdO7iKsCFRjLiP3s/view?usp=sharing);  [tokenized, tagged and chunked](https://drive.google.com/file/d/1cLXr0iyY-UiSJfxrkvVgE2URmIYV7yfD/view?usp=sharing).
   
 + WIKIPEDIA
   + Source: www.wikipedia.org
-  + DESCRIPTION: Encyclopedia.
-  + EXTRACTION: Removed wiki markup and pre-processed.
+  + DESCRIPTION: Encyclopaedia.
+  + EXTRACTION: Removed wiki mark-up and pre-processed.
   + VERSIONS: [One sentence per line, tokenized, lemmatized, chunked, lower-cased and pos-tagged](https://drive.google.com/file/d/1jw7ly2IIY4UowgaBXslozYTa5kBBx9UC/view?usp=sharing) (`the_D centreville_N amusement_park_N or_C centreville_N theme_park_N be_V a_D child_N 's_P amusement_N ...`).
 
 ## Other resources relevant to the project
@@ -201,7 +201,7 @@ The below command will first scan the folders `MAPPED-ENG-FOLDER` and `MAPPED-WE
 ```bash
 python3 src/vecmap_eval_launcher.py --testdict TEST-DICT --source-vectors-folder MAPPED-ENG-FOLDER --target-vectors-folder MAPPED-WEL-FOLDER --results-folder RESULTS-FOLDER
 ```
-Note that there are several methods for retrieving similar words in bilingual spaces. Please refer to the original VecMap codes for all the variants. Here we use as default `nearest neighbours by cosine similarity`, which is the fastest method, although `csls` works slighty better.
+Note that there are several methods for retrieving similar words in bilingual spaces. Please refer to the original VecMap codes for all the variants. Here we use as default `nearest neighbours by cosine similarity`, which is the fastest method, although `csls` works slightly better.
 
 ### Results
 
@@ -250,7 +250,7 @@ In this section we explain the steps to be taken for training and evaluating a W
 
 - Since we were not able to find a sentiment analysis dataset and pre-trained model for the Welsh language, we propose to train a cross-lingual model on automatically translated English data. 
 - We used the [IMDB reviews sentiment dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), which contains 50,000 positive/negative movie reviews (25k for training, 25k for evaluation).
-- We used the Google translate API for generating **IMDB-CY** (the Welsh verison fo IMDB reviews), which can be accessed [here](https://github.com/luisespinosaanke/wel-eng-embeddings/tree/master/data/corpora/welsh/imdb-cy).
+- We used the Google translate API for generating **IMDB-CY** (the Welsh version of IMDB reviews), which can be accessed [here](https://github.com/luisespinosaanke/wel-eng-embeddings/tree/master/data/corpora/welsh/imdb-cy).
 - We release code for training a sentiment analysis model based on a stack of Convolutional Neural Networks and Long Short-Term Memory Networks (adapted from [here](https://www.aclweb.org/anthology/N18-2061/)). This model, when trained with our cross-lingual embeddings, can then be applied indistinctly to English and Welsh data.
 
 ## Classifier training
