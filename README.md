@@ -181,7 +181,7 @@ This script will save two files: `train_dict.csv` and `test_dict.csv` into the `
 
 # Experiment 1 - Bilingual English - Welsh embeddings
 
-Detailed instructions available in the [vecmap repo](https://github.com/artetxem/vecmap). 
+Detailed instructions available in the [vecmap repo](https://github.com/artetxem/vecmap). We use VecMap as our cross-lingual mapping algorithm, as it is a well-known, highly cited framework, which has shown to be robust across several language pairs. Further details about it can be found in its associated publications, e.g., [A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings](https://aclweb.org/anthology/P18-1073).
 
 ## Launch batch VecMap mappings
 
