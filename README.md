@@ -185,7 +185,7 @@ Detailed instructions available in the [vecmap repo](https://github.com/artetxem
 
 ## Launch batch VecMap mappings
 
-For convenience, we provide a method for evaluating batches of English-Welsh vectors where we evaluate two embeddings trained with the same hyperparameters (see file naming requirements for properly aligning embedding pairs).
+For convenience, we provide a method for evaluating batches of English-Welsh vectors where we evaluate two embeddings trained with the same hyperparameters (see file naming requirements for properly aligning embedding pairs). Note that first, you must clone vecmap's repository in the home directory of this repo.
 
 The below command will first scan `MAPPED-ENG-FOLDER` and `MAPPED-WEL-FOLDER` for embeddings of the same config (model name - word2vec or fasttext -, and the `mc`, `s` and `w` parameters), then apply the supervised variant of VecMap using the `--traindict` dictionary as supervision.
 
