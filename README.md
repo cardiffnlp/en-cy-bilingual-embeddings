@@ -181,11 +181,11 @@ This script will save two files: `train_dict.csv` and `test_dict.csv` into the `
 
 # Experiment 1 - Bilingual English - Welsh embeddings
 
-Detailed instructions available in the [vecmap repo](https://github.com/artetxem/vecmap). 
+Detailed instructions available in the [vecmap repo](https://github.com/artetxem/vecmap). We use VecMap as our cross-lingual mapping algorithm, as it is a well-known, highly cited framework, which has shown to be robust across several language pairs. Further details about it can be found in its associated publications, e.g., [A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings](https://aclweb.org/anthology/P18-1073).
 
 ## Launch batch VecMap mappings
 
-For convenience, we provide a method for evaluating batches of English-Welsh vectors where we evaluate two embeddings trained with the same hyperparameters (see file naming requirements for properly aligning embedding pairs).
+For convenience, we provide a method for evaluating batches of English-Welsh vectors where we evaluate two embeddings trained with the same hyperparameters (see file naming requirements for properly aligning embedding pairs). Note that first, you must clone vecmap's repository in the home directory of this repo.
 
 The below command will first scan `MAPPED-ENG-FOLDER` and `MAPPED-WEL-FOLDER` for embeddings of the same config (model name - word2vec or fasttext -, and the `mc`, `s` and `w` parameters), then apply the supervised variant of VecMap using the `--traindict` dictionary as supervision.
 
