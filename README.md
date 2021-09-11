@@ -143,7 +143,13 @@ Here we make available the embeddings produced in the project. All embeddings ar
 - [Cross-lingual English-Welsh sentiment analysis files] (https://drive.google.com/drive/folders/1VArQ4_bTzz8IJj8h7o969UrI12l1Cl9z?usp=sharing) - See below for customization and training details.
 _____________________
 
-Below we describe how to train your own bilingual (English and Welsh) embeddings and sentiment analysis models.
+Below we describe how to train your own bilingual (English and Welsh) embeddings and sentiment analysis models. We recommend that you start a Python 3 virtual environment, and install the required dependencies from the requirements.txt file. Specifically, after you clone this repository, do:
+
+```
+cd en-cy-bilingual embeddings
+python3 -m venv .
+pip install -r requirements.txt
+```
 
 # Training your own bilingual word embeddings
 
