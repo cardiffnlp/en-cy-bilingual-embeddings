@@ -3,7 +3,8 @@ import pickle
 import os
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from keras.utils import to_categorical
+#from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from keras.layers import Embedding
 from keras.layers import Input, Dense, Bidirectional, LSTM, Activation, MaxPooling1D, Conv1D, Dropout, Embedding, ActivityRegularization, concatenate
 from keras.models import Model, Sequential

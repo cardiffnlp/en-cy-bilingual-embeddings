@@ -10,6 +10,8 @@ def get_all_filepaths(root,forbidden_suffix='_mapped.vec'):
 
 def get_config(path):
 
+	print('path: ',path)
+
 	if 'word2vec_s' in path:
 		prefix = 'word2vec_s'
 	elif 'fasttext_s' in path:
